@@ -17,5 +17,10 @@ namespace SampleBuildJenkins
         {
             return "Hello World";
         }
+
+        public static bool ValidUser()
+        {
+            return true;
+        }
     }
 }
