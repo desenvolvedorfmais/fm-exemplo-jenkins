@@ -13,7 +13,7 @@ namespace SampleBuildJenkins
             Console.WriteLine(CreateMessage());
         }
 
-        public static int CreateMessage()
+        public static string CreateMessage()
         {
             return "Hello World";
         }
