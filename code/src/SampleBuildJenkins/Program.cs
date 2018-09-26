@@ -18,6 +18,11 @@ namespace SampleBuildJenkins
             return "Hello World";
         }
 
+        public static string CreateMessage2()
+        {
+            return "Hello World";
+        }
+
         public static bool ValidUser()
         {
             return true;
